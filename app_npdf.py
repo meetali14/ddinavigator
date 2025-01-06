@@ -133,7 +133,7 @@ def ddi_analysis_for_drugs(file_path, drug1, drug2):
     return result, victim_perpetrator_results
 
 # Streamlit UI
-st.title("Drug-Drug Interaction Navigator Tool")
+st.title("Drug-Drug Interaction Navigator")
 st.write("This tool allows you to search for interactions between two drugs. Select drugs to see detailed analysis.")
 
 drug_data = load_data(DATA_FILE_PATH2)
